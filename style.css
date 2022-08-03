@@ -11,6 +11,8 @@
 			box-sizing: border-box;
 	}
 
+html {margin: 1%; padding: 2%;}
+
 		/*#Header{ text-align: center; 
 			align-content: center; 
 			position: fixed; 
@@ -23,14 +25,15 @@
 			border-radius: 10%;}
 	*/
 header	{width: 97%;
-		height: 50px;
+		height: 100px;
 		background-color: #1b1;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		position: fixed;
 		top: 0;
-		margin: 1px solid yellow;
+		padding-right: 50px;
+		border: 50px;
 		}
 
 nav {
@@ -93,6 +96,12 @@ a 	{	color: purple;
 
 td	{	text-align: center;
 	}
+#plantapartments:hover{
+	background-color: #dfdfe2;
+	color: #1b1b32;
+	cursor: pointer;
+
+}
 	
 #video	{	left:40px; 
 			bottom: 30px; 
@@ -107,9 +116,11 @@ iframe	{	align-content: center;
 			-webkit-border-radius: 25px; 
 			border-radius: 25px; 
 			padding: 3px;
+			position: relative;
 		}
 
 #div2	{	background-color: darkred ;
+			position: static;
 		}
 
 #div3	{background-color: yellowgreen;
@@ -176,7 +187,7 @@ span	{font-size: 2em;
 #divc:hover{background-color: violet;
 		}
 
-#divc{ 	max-width: 50%; 
+#divc{ 	 
 		background-color: springgreen;	
 	}
 	
